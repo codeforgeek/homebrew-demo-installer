@@ -7,6 +7,6 @@ class DemoInstaller < Formula
   depends_on "redis"
 
   def install
-    bin.install "install"
+    bin.install "bin/install"
   end
 end
