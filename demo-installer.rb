@@ -5,6 +5,7 @@ class DemoInstaller < Formula
   sha256 "520b428ac8025c3efabbd6370164af472abdebf3427cadeed296c8bcb604b2c2"
   depends_on "node@10"
   depends_on "redis"
+  depends_on "wget"
 
   def install
     bin.install "bin/install.sh"
